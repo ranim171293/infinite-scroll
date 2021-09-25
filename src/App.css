@@ -1,0 +1,17 @@
+.MainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: scroll;
+}
+.header{
+  text-align: center;
+  color: cadetblue;
+}
+.listItems:nth-child(odd) {
+  background-color: azure;
+}
+.listItems:nth-child(even) {
+  background-color: beige;
+}
